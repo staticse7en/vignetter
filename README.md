@@ -6,12 +6,12 @@ This is a cross-platform port of [TheGeekFreaks' Vignetter](https://github.com/T
 
 ## Features
 
-- ✅ **Multiple Shapes**: Oval, Rectangle, Diamond, Star
-- ✅ **Custom Colors**: Full RGB control with 4 blend modes (Normal, Multiply, Screen, Overlay)
-- ✅ **16 Professional Presets**: Cinematic, Sepia, Dramatic, Vintage, Horror, Dream, Focus, and more
-- ✅ **Advanced Controls**: Rotation, aspect ratio, shape strength, position control
-- ✅ **Cross-Platform**: Works on Windows, macOS, and Linux
-- ✅ **Bilingual UI**: German and English support
+- **Multiple Shapes**: Oval, Rectangle, Diamond, Star
+- **Custom Colors**: Full RGB control with 4 blend modes (Normal, Multiply, Screen, Overlay)
+- **16 Professional Presets**: Cinematic, Sepia, Dramatic, Vintage, Horror, Dream, Focus, and more
+- **Advanced Controls**: Rotation, aspect ratio, shape strength, position control
+- **Cross-Platform**: Works on Windows, macOS, and Linux
+- **Bilingual UI**: German and English support
 
 ## Installation
 
@@ -43,7 +43,7 @@ vignetter/
 ├── README.md                    # This file
 ├── MAC_PORTING_GUIDE.md        # Technical guide for maintaining this port
 ├── vignetter.lua               # Original Windows version
-└── vignetter_universal.lua     # Cross-platform compatible version ⭐
+└── vignetter_universal.lua     # Cross-platform compatible version
 ```
 
 **Which file should you use?**
@@ -119,7 +119,7 @@ When upstream updates are released, see [MAC_PORTING_GUIDE.md](MAC_PORTING_GUIDE
 
 ### Key Compatibility Rules
 
-1. **Never** add default values to shader uniforms (`uniform float x = 1.0;` ❌)
+1. **Never** add default values to shader uniforms (`uniform float x = 1.0;`)
 2. **Avoid** parameter names like `opacity` and `rotation` (use `opacity_param`, `rotation_angle`)
 3. **Test** on Mac after any shader changes (silent failures are common)
 
@@ -145,7 +145,7 @@ Found a bug or want to add a feature? Contributions welcome!
 
 ## Known Issues
 
-None currently! 🎉
+None currently!
 
 If you find an issue, please report it with:
 - Your OS and OBS version
@@ -155,4 +155,4 @@ If you find an issue, please report it with:
 
 ---
 
-**Enjoy creating beautiful vignette effects on any platform!** 🎬
+**Enjoy creating beautiful vignette effects on any platform!**
