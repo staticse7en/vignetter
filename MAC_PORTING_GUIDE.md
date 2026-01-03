@@ -320,13 +320,10 @@ The Mac version actually has **better cross-platform compatibility** than the or
 
 ---
 
-## Files in This Repository
+## Relevant Files in This Repository
 
-- `vignetter.lua` - Original Windows version (upstream)
 - `vignetter_universal.lua` - Cross-platform compatible version ✅ **USE THIS**
 - `MAC_PORTING_GUIDE.md` - This document
-
-**Note:** Other `vignetter_mac_*.lua` files were experimental iterations and can be deleted.
 
 ---
 
@@ -368,9 +365,8 @@ mul(vec, matrix)      // Works but explicit multiplication may be clearer
 If you encounter issues not covered in this guide:
 
 1. Check if the shader compiles by looking for Script Log output
-2. Test the debug version (`vignetter_mac_debug.lua`) for verbose logging
-3. Compare your changes against the compatibility rules above
-4. When in doubt, keep shader parameter names simple and avoid reserved words
+2. Compare your changes against the compatibility rules above
+3. When in doubt, keep shader parameter names simple and avoid reserved words
 
 ---
 
