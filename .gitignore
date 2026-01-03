@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Experimental/debug versions (keep only the working one)
+vignetter_mac_debug.lua
+vignetter_mac_full.lua
+vignetter_mac_perfect.lua
+vignetter_mac_final.lua
+
+# Keep these files:
+# vignetter.lua (original)
+# vignetter_universal.lua (working Mac version)
+.claude/
