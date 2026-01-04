@@ -6,6 +6,9 @@
     Original Author: TheGeekFreaks (2025) - German project with English support
     Original Project: https://github.com/The-Geek-Freaks/Vignetter
 
+    Cross-Platform Port: staticse7en (2026)
+    Port Repository: https://github.com/staticse7en/vignetter
+
     This is a cross-platform port adapted for macOS and Linux.
     The original Windows version uses HLSL features that fail on Mac/Linux.
     This version maintains identical visual output while ensuring cross-platform compatibility.

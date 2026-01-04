@@ -127,7 +127,7 @@ When upstream updates are released, see [MAC_PORTING_GUIDE.md](MAC_PORTING_GUIDE
 
 - **Original Author**: [TheGeekFreaks](https://github.com/The-Geek-Freaks) - Created the original Windows version (German project with English support)
 - **Original Project**: [Vignetter](https://github.com/The-Geek-Freaks/Vignetter) - "Ein professioneller OBS-Lua-Script für Vignette-Effekte"
-- **Mac/Linux Port**: Adapted for cross-platform compatibility (2026)
+- **Cross-Platform Port**: [staticse7en](https://github.com/staticse7en) - Adapted for macOS, Linux, and Windows compatibility (2026)
 
 ## License
 
